@@ -4,20 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'gzz7zdf',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>株式会社髙山組</title>
 </head>
 
 <body>
     <div id="landing-page-container">
-        <nav><img src="./img/takayamagumi-logo-green.svg" alt="takayamagumi-logo">
-            <h2>株式会社髙山組</h2>
+        <nav>
+            <div id="logo-companyName">
+                <a href="#landing-page-container">
+                    <img src="./img/takayamagumi-logo-green.svg" alt="takayamagumi-logo">
+                    <h2>株式会社&ensp;髙山組</h2>
+                </a>
+            </div>
         </nav>
         <div id="main-container">
             <div id="comingsoon-wrap">
                 <div id="comingsoontext-wrap">
-                    <h1>Coming</h1>
-                    <h1>Soon</h1>
+                    <h1>COMING</h1>
+                    <h1>&ensp;SOON</h1>
                 </div>
                 <h3>ホームページ</h3>
                 <h3>2022年10月公開予定</h3>
@@ -63,7 +79,7 @@
         </div>
         <footer id="footer-laptop">
             <div id="icon-wrap">
-                <img src="./img/factory_icon-gray.svg" alt="factory_icon">
+                <img src="./img/factory_icon-gray.svg" alt="factory_icon" id="img-factory">
                 <img src="./img/dumpcar-gray.svg" alt="dumpcar_icon">
                 <img src="./img/bulldorzer-gray.svg" alt="bulldorzer_icon">
                 <img src="./img/unbo-gray.svg" alt="unbo_icon">
@@ -71,7 +87,7 @@
         </footer>
     </div>
 
-
+    <script src="main.js"></script>
 </body>
 
 </html>
