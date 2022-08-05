@@ -73,7 +73,9 @@ nav img {
     font-style: normal;
 
 }
-
+#soon-mobile {
+    display: none;
+}
 #comingsoon-wrap h3 {
     font-size: 2em;
     font-family: 'Kosugi Maru', sans-serif;
@@ -82,11 +84,15 @@ nav img {
     font-style: normal; */
 }
 
-#location-container {
+
+
+
+#location-container-laptop {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
     width: 70%;
+
     /* font-family: fot-udmarugo-large-pr6n, sans-serif;
     font-weight: 900;
     font-style: normal; */
@@ -176,10 +182,135 @@ footer {
 
 .icon-wrap img {
     height: 6em;
-    /* padding: 0 10%; */
+
 }
 
 .greenline {
     height: 2em;
     background-color: #3b7b58;
+}
+
+#location-container-mobile, #phone {
+    display: none;
+}
+
+
+@media screen and (max-width: 1350px) {
+    #comingsoontext-wrap {
+        font-size: 4em;
+    }
+    #location-container-laptop {
+        width: 100%; 
+    }
+    #icon-wrap-left, #icon-wrap-right {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 1050px) {
+    #comingsoontext-wrap {
+        font-size: 3em;
+    }
+    .location-name-wraps {
+        font-size: 1.1em;
+    }
+    
+    .location-name-wraps img {
+        height: 25px;
+    }
+    
+    .location-wraps p {
+        font-size: 1em;
+    }
+
+    #contact-contaier {
+        font-size: 1.1em;
+    }
+    
+    #number-wrap {      
+        width: 60%;      
+        font-size: 1em;
+    }
+    .icon-wrap img {
+        height: 5em;
+    }
+    #icon-wrap-left, #icon-wrap-right {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 890px) {
+    #landing-page-container {
+        background-size: auto 100%;
+    }
+    #comingsoontext-wrap {
+        font-size: 2.5em;
+    }
+    #comingsoon-wrap h3 {
+        font-size: 1.5em;
+    }
+    .location-name-wraps {
+        font-size: 1em;
+    }
+    
+    .location-name-wraps img {
+        height: 20px;
+    }
+    
+    .location-wraps p {
+        font-size: .8em;
+    }
+    .icon-wrap img {
+        height: 4em;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #landing-page-container {
+    height: 90vh;
+    
+    }
+    #comingsoontext-wrap {
+        font-size: 3em;
+    flex-direction: column;
+    background-color: aqua;
+    }
+    #soon-mobile {
+        display: block;
+    }
+    #soon-laptop {
+        display: none;
+    }
+
+    #location-container-laptop,#number-wrap {
+        display: none; 
+    }
+    #location-container-mobile,#phone {
+        display: block;
+        
+    }
+    #location-container-mobile {
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    #location-container-mobile img {
+        width: 40px;
+    }
+    .location-wraps {
+        /* background-color: tan; */
+    }
+    #location-wrap-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* background-color: antiquewhite; */
+        padding-top:30px ;
+    }
+    .location-name-wraps img {
+        padding-right: 8px;
+    }
 }
