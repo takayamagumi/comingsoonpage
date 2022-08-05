@@ -1,20 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: fot-udmarugo-large-pr6n, sans-serif;
-    font-weight: 900;
-    font-style: normal; */
+
 }
 
 #landing-page-container {
     background-image: url(./img/background-bw20.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
+    background-position: 70% 30%;
+    background-attachment: fixed;
     height: 100vh;
+    margin: 0;
 }
 
 nav {
     width: 100vw;
+    height: 5%;
 }
 
 #logo-companyName a {
@@ -27,9 +29,11 @@ nav {
     width: max-content;
     padding-right: 10px;
 
-    font-family: fot-udmarugo-large-pr6n, sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
+
+    /* font-family: fot-udmarugo-large-pr6n, sans-serif;
     font-weight: bolder;
-    font-style: normal;
+    font-style: normal; */
 }
 
 nav img {
@@ -38,18 +42,27 @@ nav img {
 }
 
 #main-container {
-    /* background-color: antiquewhite; */
-    width: 100%;
+    /* background-color: yellow; */
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
 }
 
 #comingsoon-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 50%;
+    /* background-color: #3b7b58; */
+    margin-top: 10%;
 }
 
 #comingsoontext-wrap {
-    font-size: 3em;
+    font-size: 5em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,31 +71,115 @@ nav img {
     font-family: vdl-gigamarujr, sans-serif;
     font-weight: 500;
     font-style: normal;
+
 }
 
 #comingsoon-wrap h3 {
-
-    font-family: fot-udmarugo-large-pr6n, sans-serif;
+    font-size: 2em;
+    font-family: 'Kosugi Maru', sans-serif;
+    /* font-family: fot-udmarugo-large-pr6n, sans-serif;
     font-weight: 900;
-    font-style: normal;
+    font-style: normal; */
 }
 
 #location-container {
-    background-color: aquamarine;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
-
-    font-family: fot-udmarugo-large-pr6n, sans-serif;
+    justify-content: space-evenly;
+    width: 70%;
+    /* font-family: fot-udmarugo-large-pr6n, sans-serif;
     font-weight: 900;
-    font-style: normal;
+    font-style: normal; */
+
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.location-wraps p {
+    padding: 4px 0;
 }
 
 .location-name-wraps {
     display: flex;
     align-items: flex-end;
+    font-size: 1.3em;
+    padding-bottom: 3px;
 }
 
 .location-name-wraps img {
     height: 30px;
+    padding-right: 20px;
+}
+
+.location-wraps p {
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+#contact-contaier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    /* font-family: fot-udmarugo-large-pr6n, sans-serif;
+    font-weight: 900;
+    font-style: normal; */
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 1.3em;
+}
+
+#number-wrap {
+    display: flex;
+    /* background-color: #3b7b58; */
+    width: 40%;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+#contact-contaier a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#contact-contaier p {
+    font-family: 'Kosugi Maru', sans-serif;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: auto;
+    height: 15%;
+    /* background-color: aqua; */
+}
+
+.icon-wrap {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#icon-wrap-left, #icon-wrap-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 30%;
+
+}
+
+.icon-wrap img {
+    height: 6em;
+    /* padding: 0 10%; */
+}
+
+.greenline {
+    height: 2em;
+    background-color: #3b7b58;
 }
