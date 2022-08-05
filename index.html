@@ -15,6 +15,9 @@
                 h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>株式会社髙山組</title>
 </head>
@@ -71,19 +74,28 @@
                     <p>FAX　072-777-7194</p>
                 </div>
             </div>
-            <div class="contact-contaier">
+            <div id="contact-contaier">
                 <h3>お仕事のご依頼・採用に関するお問い合わせはこちら</h3>
-                <a href="tel:+072-783-4576">TEL 072-783-4576</a>
-                <p>FAX 072-783-4577</p>
+                <div id="number-wrap">
+                    <a href="tel:+072-783-4576">TEL 072-783-4576</a>
+                    <p>FAX 072-783-4577</p>
+                </div>
+
             </div>
         </div>
         <footer id="footer-laptop">
-            <div id="icon-wrap">
-                <img src="./img/factory_icon-gray.svg" alt="factory_icon" id="img-factory">
-                <img src="./img/dumpcar-gray.svg" alt="dumpcar_icon">
-                <img src="./img/bulldorzer-gray.svg" alt="bulldorzer_icon">
-                <img src="./img/unbo-gray.svg" alt="unbo_icon">
+            <div class="icon-wrap">
+                <div id="icon-wrap-left">
+                    <img src="./img/factory_icon-gray.svg" alt="factory_icon" id="img-factory">
+                    <img src="./img/dumpcar-gray.svg" alt="dumpcar_icon">
+                </div>
+
+                <div id="icon-wrap-right">
+                    <img src="./img/bulldorzer-gray.svg" alt="bulldorzer_icon">
+                    <img src="./img/unbo-gray.svg" alt="unbo_icon">
+                </div>
             </div>
+            <div class="greenline"></div>
         </footer>
     </div>
 
