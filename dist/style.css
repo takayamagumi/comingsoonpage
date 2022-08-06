@@ -300,15 +300,17 @@ footer {
     #location-container-mobile img {
         width: 40px;
     }
-    .location-wraps {
-        /* background-color: tan; */
-    }
+
     #location-wrap-mobile {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        /* background-color: antiquewhite; */
+        background-color: antiquewhite;
         padding-top:30px ;
+    }
+    #location-container-mobile > img {
+        padding: 20% 0;
+        background-color: #3b7b58;
     }
     .location-name-wraps img {
         padding-right: 8px;
