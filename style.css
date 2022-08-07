@@ -168,7 +168,6 @@ footer {
 }
 
 .icon-wrap {
-
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -192,7 +191,7 @@ footer {
     background-color: #3b7b58;
 }
 
-#location-container-mobile, #phone {
+#location-container-mobile, #phone, .contact-note-mobile, #icon-wrap-mobile {
     display: none;
 }
 
@@ -278,6 +277,10 @@ footer {
 }
 
 @media screen and (max-width: 680px) {
+    #comingsoontext-wrap h1 {
+        margin-top: -.5em;
+        /* background-color: aqua; */
+    }
 
     #landing-page-container {
         height: 90vh;
@@ -297,15 +300,15 @@ footer {
         display: block;
     }
 
-    #soon-laptop {
+    #soon-laptop, #contact-note-laptop {
         display: none;
     }
 
-    #location-container-laptop, #number-wrap {
+    #location-container-laptop, #number-wrap, #icon-wrap-laptop {
         display: none;
     }
 
-    #location-container-mobile, #phone {
+    #location-container-mobile, #phone, .contact-note-mobile {
         display: block;
 
     }
@@ -402,6 +405,13 @@ footer {
         box-shadow: none;
         transform: translateY(0);
     }
+
+    
+    #icon-wrap-mobile {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -418,16 +428,20 @@ footer {
         height: 40px;
     }
 
+    #contact-contaier {
+        /* background-color: aliceblue; */
+        margin-top: 15%;
+    }
+
     #comingsoontext-wrap {
         font-size: 2em;
-        margin-bottom: 40px;
+        margin: 60% 0 40px 0;
     }
 
     #comingsoon-wrap h3 {
         font-size: 1.3em;
     }
-    #contact-container h3 {
-        overflow-wrap: break-word;
-        word-wrap: break-word;
+    #icon-wrap-mobile img {
+    height: 3em;
     }
 }
