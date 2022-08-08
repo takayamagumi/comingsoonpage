@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 #landing-page-container {
@@ -29,9 +28,7 @@ nav {
     color: black;
     width: max-content;
     padding-right: 10px;
-
     font-family: 'Kosugi Maru', sans-serif;
-
     /* font-family: fot-udmarugo-large-pr6n, sans-serif;
     font-weight: bolder;
     font-style: normal; */
@@ -68,11 +65,9 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-family: vdl-gigamarujr, sans-serif;
     font-weight: 500;
     font-style: normal;
-
 }
 
 #soon-mobile {
@@ -89,16 +84,15 @@ nav img {
 
 
 /* locations */
+
 #location-container-laptop {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
     width: 70%;
-
     /* font-family: fot-udmarugo-large-pr6n, sans-serif;
     font-weight: 900;
     font-style: normal; */
-
     font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -151,12 +145,10 @@ nav img {
 #contact-contaier a {
     text-decoration: none;
     color: black;
-
 }
 
 #contact-contaier p {
     font-family: 'Kosugi Maru', sans-serif;
-
 }
 
 footer {
@@ -174,17 +166,16 @@ footer {
     justify-content: space-between;
 }
 
-#icon-wrap-left, #icon-wrap-right {
+#icon-wrap-left,
+#icon-wrap-right {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
     width: 30%;
-
 }
 
 .icon-wrap img {
     height: 6em;
-
 }
 
 .greenline {
@@ -196,57 +187,51 @@ footer {
     font-family: 'Kosugi Maru', sans-serif;
 }
 
-#location-container-mobile, #phone, .contact-note-mobile, #icon-wrap-mobile {
+#location-container-mobile,
+#phone,
+.contact-note-mobile,
+#icon-wrap-mobile {
     display: none;
 }
-
 
 @media screen and (max-width: 1350px) {
     #comingsoontext-wrap {
         font-size: 4em;
     }
-
     #location-container-laptop {
         width: 100%;
     }
-
-    #icon-wrap-left, #icon-wrap-right {
+    #icon-wrap-left,
+    #icon-wrap-right {
         width: 50%;
     }
-
 }
 
 @media screen and (max-width: 1050px) {
     #comingsoontext-wrap {
         font-size: 3em;
     }
-
     .location-name-wraps {
         font-size: 1.1em;
     }
-
     .location-name-wraps img {
         height: 25px;
     }
-
     .location-wraps p {
         font-size: 1em;
     }
-
     #contact-contaier {
         font-size: 1.1em;
     }
-
     #number-wrap {
         width: 60%;
         font-size: 1em;
     }
-
     .icon-wrap img {
         height: 5em;
     }
-
-    #icon-wrap-left, #icon-wrap-right {
+    #icon-wrap-left,
+    #icon-wrap-right {
         width: 50%;
     }
 }
@@ -255,27 +240,21 @@ footer {
     #landing-page-container {
         background-size: auto 100%;
     }
-
     #comingsoontext-wrap {
         font-size: 2.5em;
     }
-
     #comingsoon-wrap h3 {
         font-size: 1.5em;
     }
-
     .location-name-wraps {
         font-size: 1em;
     }
-
     .location-name-wraps img {
         height: 20px;
     }
-
     .location-wraps p {
         font-size: .8em;
     }
-
     .icon-wrap img {
         height: 4em;
     }
@@ -287,12 +266,10 @@ footer {
         justify-content: center;
         align-items: flex-start;
     }
-
     nav img {
         height: 40px;
         margin: 10px;
     }
-
     #logo-companyName a {
         display: flex;
         flex-direction: column;
@@ -300,43 +277,38 @@ footer {
         align-items: center;
         font-size: .7em;
     }
-
     /* #comingsoontext-wrap h1 {
         /* margin-top: -.9em; */
     /* background-color: aqua; */
     /* } */
-
     #landing-page-container {
         height: 90vh;
     }
-
     #main-container {
         /* background-color: aqua; */
         height: 90%;
     }
-
     #comingsoontext-wrap {
         font-size: 3em;
         flex-direction: column;
     }
-
     #soon-mobile {
         display: block;
     }
-
-    #soon-laptop, #contact-note-laptop {
+    #soon-laptop,
+    #contact-note-laptop {
         display: none;
     }
-
-    #location-container-laptop, #number-wrap, #icon-wrap-laptop {
+    #location-container-laptop,
+    #number-wrap,
+    #icon-wrap-laptop {
         display: none;
     }
-
-    #location-container-mobile, #phone, .contact-note-mobile {
+    #location-container-mobile,
+    #phone,
+    .contact-note-mobile {
         display: block;
-
     }
-
     #location-container-mobile {
         /* background-color: aquamarine; */
         display: flex;
@@ -344,16 +316,13 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
     #location-container-mobile img {
         width: 40px;
     }
-
     #location-container-mobile h3 {
         padding-bottom: 40px;
         font-size: 1.3em;
     }
-
     #location-wrap-mobile {
         display: flex;
         flex-direction: column;
@@ -362,38 +331,31 @@ footer {
         padding-top: 30px;
         font-size: 1.3em;
     }
-
     #location-container-mobile>img {
         padding: 10% 0;
         /* background-color: #3b7b58; */
     }
-
     .location-wraps {
         padding: 20px 0;
     }
-
     .location-name-wraps {
         /* background-color: aqua; */
         margin-right: auto;
     }
-
     .location-name-wraps img {
         height: 30px;
         padding: 0;
         /* background-color: #ffffff; */
     }
-
     .location-name-wraps h4 {
         font-size: 1em;
         line-height: 30px;
         font-family: 'Kosugi Maru', sans-serif;
     }
-
     /* contact btn */
     #contact-contaier>h3 {
         font-size: 1em;
     }
-
     #contact-contaier>a {
         background-color: #3b7b58;
         display: flex;
@@ -409,28 +371,21 @@ footer {
         cursor: pointer;
         touch-action: manipulation;
     }
-
-
     #phone img {
         height: 30px;
         padding-right: 10px;
     }
-
     #phone:disabled {
         pointer-events: none;
     }
-
     #phone:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
         transform: translateY(-2px);
     }
-
     #phone:active {
         box-shadow: none;
         transform: translateY(0);
     }
-
-
     #icon-wrap-mobile {
         display: block;
         display: flex;
@@ -439,39 +394,53 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    /* nav {
-        display: flex;
-        justify-content: center;
-    }
-
-    #logo-companyName a {
-        font-size: .9em;
-    } */
-
     nav img {
         height: 40px;
     }
-
     #contact-contaier {
         /* background-color: aliceblue; */
         margin-top: 15%;
     }
-
     #comingsoontext-wrap {
         font-size: 2.5em;
         margin: 60% 0 40px 0;
     }
-
     #soon-mobile {
         margin-top: -.5em;
     }
-
     #comingsoon-wrap h3 {
         font-size: 1.3em;
     }
-
     #icon-wrap-mobile img {
         height: 3em;
+    }
+}
+
+@media screen and (max-height: 1080px) {
+    #main-container {
+        gap: 5%;
+    }
+    #comingsoontext-wrap {
+        font-size: 2.5em;
+    }
+    #comingsoon-wrap h3 {
+        font-size: 1.3em;
+    }
+    .location-name-wraps {
+        font-size: 1em;
+    }
+    .location-wraps p {
+        font-size: .9em;
+    }
+    #contact-note-laptop {
+        font-size: .9em;
+    }
+    #number-wrap {
+        font-size: .9em;
+        margin-top: 20px;
+    }
+    .icon-wrap img {
+        height: 4em;
     }
 }
 
@@ -480,25 +449,21 @@ footer {
         margin-top: 50%;
         font-size: 2em;
     }
-
     #comingsoon-wrap h3 {
         font-size: 1em;
     }
-
     #contact-contaier>a {
         margin: 20px;
     }
-
     #contact-contaier {
         margin-top: 15%;
     }
-    #contact-contaier h3{
+    #contact-contaier h3 {
         font-size: .7em;
     }
-    #main-container { 
+    #main-container {
         gap: 8%;
     }
-
 }
 
 @media screen and (max-height: 510px) {
@@ -508,7 +473,6 @@ footer {
     #location-container-mobile h3 {
         font-size: 1em;
     }
-
     #location-wrap-mobile {
         padding-top: 30px;
         font-size: 1em;
@@ -534,7 +498,7 @@ footer {
     #comingsoon-wrap h3 {
         font-size: .7em;
     }
-    #contact-contaier h3{
+    #contact-contaier h3 {
         font-size: .5em;
     }
     #contact-contaier>a {
@@ -547,6 +511,4 @@ footer {
         height: 20px;
         padding-right: 10px;
     }
-
-
 }
