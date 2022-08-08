@@ -454,10 +454,12 @@ footer {
     }
 
     #comingsoontext-wrap {
-        font-size: 2em;
+        font-size: 2.5em;
         margin: 60% 0 40px 0;
     }
-
+#soon-mobile {
+    margin-top: -.5em;
+}
     #comingsoon-wrap h3 {
         font-size: 1.3em;
     }
